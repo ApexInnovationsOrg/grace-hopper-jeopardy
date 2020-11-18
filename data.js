@@ -1,11 +1,12 @@
+
 var data = [
   {
     "category": "Quotes",
     "questions": [
       {
         "points": 100,
-        "question": "It's easier to ask forgiveness than it is _______________",
-        "answer": "To get permission"
+        "question": "It's easier to deploy CopePipeline(s) than it is _______________",
+        "answer": "to configure/manage new infrastructure."
       },
       {
         "points": 200,
