@@ -6,7 +6,7 @@ Description:
 Parameters:
   BranchName:
     Description: GitHub branch name
-    Type: String
+    Type: String 
   RepositoryName:
     Description: GitHub repository name
     Type: String
