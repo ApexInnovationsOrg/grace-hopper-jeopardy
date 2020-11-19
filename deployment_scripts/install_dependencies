@@ -6,5 +6,5 @@ yum install -y httpd
 curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
 yum install -y nodejs
 
-yum install -y php php-redis php-mysql php-zip php-xsl php-soap
+yum install -y php 
 
