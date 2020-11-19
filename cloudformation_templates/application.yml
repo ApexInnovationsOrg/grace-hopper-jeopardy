@@ -208,6 +208,15 @@ Resources:
 
   LaunchConfig:
     Type: AWS::AutoScaling::LaunchConfiguration
+    Metadata:
+      AWS::CloudFormation::Init:
+        config:
+          packages:
+            yum:
+              httpd: []
+              php: []
+              php-*: []
+              php-mysql: []
     Properties:
       AssociatePublicIpAddress: false
       ImageId: !Ref LatestAmiId
