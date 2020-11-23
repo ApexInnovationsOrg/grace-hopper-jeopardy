@@ -1,2 +1,2 @@
 <?php
-    echo 'executing php';
+    echo 'executing php!';
